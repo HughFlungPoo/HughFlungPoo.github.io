@@ -83,12 +83,15 @@ footer {
 
 /* Images */
 img {
+    max-width: 75%; /* Limits the width of the image to 75% of its container */
+    height: auto; /* Maintains the aspect ratio */
     border: 12px solid #333; /* Image border color */
     border-radius: 10px; /* Rounded corners */
-    margin: 1rem auto;
+    margin: 1rem auto; /* Center align image */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
-    display: block; /* Center align image */
+    display: block; /* Makes the image a block element for proper centering */
 }
+
 
 /* Links (Global Style) */
 a {
